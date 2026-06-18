@@ -1,0 +1,14 @@
+<input type="number" id="temp">
+<button onclick="convert()">Convert</button>
+
+<p id="result"></p>
+
+<script>
+function convert(){
+ let c=Number(document.getElementById("temp").value);
+
+ let f=(c*9/5)+32;
+
+ result.innerHTML="Fahrenheit = "+f;
+}
+</script>
